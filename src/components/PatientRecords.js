@@ -59,7 +59,7 @@ export default function PatientRecords({ web5, myDid }) {
                 message: {
                     filter: {
                         protocol: protocolDefinition.protocol,
-                        // schema: protocolDefinition.types.list.schema,
+                        schema: protocolDefinition.types.list.schema,
                     },
                 },
             });
